@@ -32,26 +32,26 @@
     "radioChannels": [
         {
             "id": 1,
-            "name": "NYPD Radio",
+            "name": "TPD Radio",
             "soundName": "",
             "type": "LEO",
-            "coloredName": "[color=green]NYPD Radio[/color]",
+            "coloredName": "[color=green]TPD Radio[/color]",
             "talkEnforcement": true,
             "talkAround": false,
             "scannable": true,
-            "encrypted": false,
+            "encrypted": true,
             "permission": 1
         },
         {
             "id": 2,
-            "name": "FDNY Radio",
+            "name": "HCFR Radio",
             "soundName": "",
             "type": "LEO",
             "coloredName": "[color=yellow]FDNY Radio[/color]",
             "talkEnforcement": true,
             "talkAround": false,
             "scannable": true,
-            "encrypted": false,
+            "encrypted": true,
             "permission": 1
         },
         {
@@ -75,41 +75,41 @@
             "talkEnforcement": true,
             "talkAround": false,
             "scannable": true,
-            "encrypted": false,
+            "encrypted": true,
             "permission": 1
         },
         {
             "id": 5,
-            "name": "NYPD 4th Pct",
+            "name": "HCSO Radio",
             "soundName": "",
             "type": "LEO",
-            "coloredName": "[color=grey]NYPD 4th Pct Radio[/color]",
+            "coloredName": "[color=grey]HCSO Radio[/color]",
             "talkEnforcement": true,
             "talkAround": false,
             "scannable": true,
-            "encrypted": false,
+            "encrypted": true,
             "permission": 1
         },
         {
             "id": 6,
-            "name": "NYPD 57th Pct",
+            "name": "FHP Radio",
             "soundName": "",
             "type": "LEO",
-            "coloredName": "[color=grey]NYPD 57th Pct Radio[/color]",
+            "coloredName": "[color=grey]FHP Radio[/color]",
             "talkEnforcement": true,
             "talkAround": false,
             "scannable": true,
-            "encrypted": false,
+            "encrypted": true,
             "permission": 1
         },
         {
             "id": 7,
-            "name": "NYSP Cmd Staff",
+            "name": "Unified Cmd Staff",
             "soundName": "",
             "type": "LEO",
-            "coloredName": "[color=cyan]NYSP Cmd Staff Radio[/color]",
+            "coloredName": "[color=cyan]Unified Cmd Staff Radio[/color]",
             "talkEnforcement": true,
-            "talkAround": false,
+            "talkAround": true,
             "scannable": false,
             "encrypted": true,
             "permission": 1
@@ -152,14 +152,14 @@
         },
         {
             "id": 11,
-            "name": "Knights Towing",
+            "name": "Towing Interop Radio",
             "soundName": "",
             "type": "LEO",
-            "coloredName": "[color=gold]Knights Towing Radio[/color]",
+            "coloredName": "[color=gold]Towing Interop Radio[/color]",
             "talkEnforcement": true,
             "talkAround": false,
             "scannable": true,
-            "encrypted": false,
+            "encrypted": true,
             "permission": 1
         }
     ],
@@ -176,19 +176,19 @@
     },
     "permissions": {
         "permBasic": {
-            "serverGroupList": ["61"],
+            "serverGroupList": ["6"],
             "clientUidList": [""]
         },
         "permExtra": {
-            "serverGroupList": [""],
+            "serverGroupList": ["6"],
             "clientUidList": [""]
         },
         "permSit": {
-            "serverGroupList": ["75"],
+            "serverGroupList": ["6"],
             "clientUidList": [""]
         },
         "permStaff": {
-            "serverGroupList": ["65"],
+            "serverGroupList": ["6"],
             "clientUidList": [""]
         },
         "permSenior": {
@@ -196,11 +196,11 @@
             "clientUidList": [""]
         },
         "permAdmin": {
-            "serverGroupList": ["128"],
+            "serverGroupList": ["6"],
             "clientUidList": [""]
         },
         "permSuper": {
-            "serverGroupList": ["70"],
+            "serverGroupList": ["6"],
             "clientUidList": [""]
         }
     }
