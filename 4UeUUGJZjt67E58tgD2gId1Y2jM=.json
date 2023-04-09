@@ -47,7 +47,7 @@
             "name": "HCFR Radio",
             "soundName": "",
             "type": "LEO",
-            "coloredName": "[color=yellow]FDNY Radio[/color]",
+            "coloredName": "[color=yellow]HCFR Radio[/color]",
             "talkEnforcement": true,
             "talkAround": false,
             "scannable": true,
@@ -176,19 +176,19 @@
     },
     "permissions": {
         "permBasic": {
-            "serverGroupList": ["6"],
+            "serverGroupList": ["6","9"],
             "clientUidList": [""]
         },
         "permExtra": {
-            "serverGroupList": ["6"],
+            "serverGroupList": ["6","9"],
             "clientUidList": [""]
         },
         "permSit": {
-            "serverGroupList": ["6"],
+            "serverGroupList": ["6","9"],
             "clientUidList": [""]
         },
         "permStaff": {
-            "serverGroupList": ["6"],
+            "serverGroupList": ["6","9"],
             "clientUidList": [""]
         },
         "permSenior": {
@@ -196,11 +196,11 @@
             "clientUidList": [""]
         },
         "permAdmin": {
-            "serverGroupList": ["6"],
+            "serverGroupList": ["6","9"],
             "clientUidList": [""]
         },
         "permSuper": {
-            "serverGroupList": ["6"],
+            "serverGroupList": ["6","9"],
             "clientUidList": [""]
         }
     }
